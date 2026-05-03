@@ -1,0 +1,22 @@
+CREATE database hospital;
+
+Use hospital;
+
+CREATE TABLE patients (
+
+    patient_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    age INT,
+    gender VARCHAR(10),
+    disease VARCHAR(100)
+);
+
+CREATE TABLE doctors(
+
+    doctor_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    age INT,
+    gender VARCHAR(10),
+    specialization VARCHAR(100)
+
+);
